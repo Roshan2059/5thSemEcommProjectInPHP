@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+nav{
+    margin: 10px 10px 0px 0px;
+}
+
+#first{
+    margin-left: 8vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 30, 0);
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 5vh;
+    font-size: 18px;
+}
+
+nav ul li input{
+    border-radius: 5px;
+    height: 5vh;
+    width: 20vw;
+    margin-left: 1vw;
+}
+
+input[type=text]{
+    width: 10%;
+    padding: 5px;
+    border: 1px solid rgb(255, 30, 0);
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 17%;
+    outline: none;
+  }
+
+.icon{
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+#last{
+    margin-left: 1vw;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5em;
+    height: min-content;
+    width: 95vw;
+}
+
+.ind-pro{
+    box-sizing: border-box;
+    border: 2px solid paleturquoise;
+    height: auto;
+    width: 15vw;
+    margin: 1em;
+}
+
+.ind-pro img{
+    margin-top: 20px;
+    margin-left: 18%;
+    height: 170px;
+    width: 130px;
+}
+
+.pro_desc{
+    margin-top: 10px;
+    margin-left: 18%;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
